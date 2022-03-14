@@ -1,0 +1,21 @@
+What is Debugging?
+->
+
+What are the default packages present in java? 
+->java.lang package is automatically imported
+
+Can we have an else condition without if condition?
+-> No, we cant have an else condition without if condition. but can have if without else.
+
+Other than boolean can we use anything in if condition?
+-> Technically only 1 condition is evaluated inside an if,ie ...It must evaluate to either true or false.
+
+Why break is importent in switch case?
+-> The break statement is used to terminate the switch case.
+   so if there is no break statement then all the cases will get excecuted.
+   if break statement is applied then the program breaks out of switch once the matched statement is executed .
+
+Understand the naming conventions in java
+->Java follows camel-case syntax for naming the class, interface, method, and variable.
+ex :- for variables start with a lowercase letter and then capitalize the first letter of every subsequent word.
+
