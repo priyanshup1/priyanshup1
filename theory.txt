@@ -1,0 +1,37 @@
+What is the underlying data structure of collections?
+	ArrayList- 		array of Object class.
+	LinkedList- 	linear data structure.
+	HashMap-		array and LinkedList.
+	HashSet-		HashTable.
+	TreeSet- 		TreeMap.
+	Stack-		Last In First Out (LIFO).
+	Queue-		First In First Out (FIFO).
+
+
+The OWASP Top 10 includes the following:
+Injection.
+Broken Authentication. 
+Sensitive Data Exposure. 
+XML External Entities (XXE).
+Broken Access Control.
+Security Misconfiguration.
+Cross-Site Scripting (XSS).
+Insecure Deserialization.
+Using Components With Known Vulnerabilities
+Insufficient Logging And Monitoring
+
+
+Advantages of ArrayList?
+ArrayList is variable length.
+Add any type of data into ArrayList.
+Traverse in both directions.
+ArrayList allows multiple null values.
+ArrayList allows to add duplicate elements.
+When ArrayList exceeds its capacity, then its size increases by 50%.
+Retrieval is faster in ArrayList
+
+Disadvantages of ArrayList?
+Never used Arraylist when you have to do lot of insertion and deletion as this will force arraylist to adjust the elements present in the list instead used linkedlist.
+When you want to add elements in the last or first and the arraylist size is 0, in this case you can use linkedlist to add specifically on top and bottom of list.
+You can't maintain uniqueness.
+Arraylist dont work on primitive values.
